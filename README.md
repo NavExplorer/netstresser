@@ -1,9 +1,11 @@
 # netstresser
 NavCoin network stresser
 
-Run `bash dice.sh` to trigger a random action (create transaction, create proposal, create payment request or nothing). Payment Request creation can turn into a `nothing` action if the randomly chosen proposal is not owned by the node, hence the higher probability assigned in the code.
+Run new_qt.sh to create a new qt wallet.
 
-Run `bash voter_dice.sh` to assign a random vote for all the entries without one.
+Run new_daemon.sh to delete the ~/.navcoin4/devnet folder and create a navcoind instance
+
+Run stressor_dao_testnet.sh to create random propoasls and consutlations. Configuration is needed to make it work.
 
 Needs:
 
